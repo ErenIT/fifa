@@ -1,0 +1,292 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+  font-family: "boldfont";
+  src: url("fonts/qatar-2022-sans-serif-font-1669203173-0/qatar2022arabic-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("fonts/Normalfont/HKGrotesk-Regular.otf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+/*
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background: center / cover no-repeat url("https://media.cnn.com/api/v1/images/stellar/prod/220930165943-01-neymar.jpg?c=original");
+    position: relative;
+    opacity: 0.8;
+    z-index: 2;
+}
+*/
+/*   background-image: linear-gradient(155deg, #002f62 0%, #18496a 50%, #138b89 100%); */
+
+
+/*
+
+.header::before {
+    opacity:0.4;
+    background-color: #8A1538;
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+*/
+
+/* NAVBAR */
+.nav-link {
+  color:white;
+}
+:root {
+  --headingcolor: #8A1538;;
+}
+
+li .nav-item {
+  color:white;
+}
+.navbar.solid {
+
+  background-color: var(--headingcolor);
+
+  transition: background-color 1s ease 0s;
+
+}
+/* HERO IMAGE AND WAVE */
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.wavy {
+    position: relative;
+    height: 110vh;
+    z-index: -1;
+    max-width: 100%;
+    background: center / cover no-repeat url("https://digitalhub.fifa.com/transform/37c9803a-80e3-43ef-8c84-0a78ea933366/FIFAPLS_WorldCup22Analysis_01_Hero_Qatar");
+}
+
+.wavy::before {
+  /*background-color: rgba(0, 0, 0, 0.25);*/
+  background-color: rgba(60, 54, 54, 0.225);
+  opacity: 0.8;
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+
+h1,h2,h3,h4 {
+  font-family: "boldfont";
+}
+
+.header h1, .wavy h1 {
+    color: white;
+    z-index: 1;
+    text-align: center;
+    padding-top: 300px;
+    position: relative;
+    
+  }
+
+section {
+    padding: 60px 0 60px 0;
+}
+
+
+.content  {
+    padding-top: 200px;
+}
+
+.custom-shape-divider-bottom-1669199341 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669199341 svg {
+    position: relative;
+    display: block;
+    width: calc(271% + 1.3px);
+    height: 304px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1669199341 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* BOXES */
+
+.icon-box {
+text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 80px 20px;
+  height: 500px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  background: center / cover no-repeat url("https://static.dw.com/image/60102945_905.jpg");
+  }
+
+  .icon-box2 {
+    text-align: center;
+      border: 1px solid #ebebeb;
+      padding: 80px 20px;
+      height: 1016px;
+      transition: all ease-in-out 0.3s;
+      background: #fff;
+      }
+
+
+  .imgbox {
+    background: linear-gradient(rgba(30, 30, 30, 0.25), rgba(30, 30, 30, 0.25)), url(https://assets.the-afc.com/migration/a/4/a4k7levszd9890seyvyy.jpg) center/cover no-repeat;
+  }
+
+
+  .imgbox2 {
+    background: linear-gradient(rgba(30, 30, 30, 0.25), rgba(30, 30, 30, 0.25)), url(img/Hassan-Al-Haydos-age-position-salary-team-girlfriend-facts-football-Career.jpeg) center/cover no-repeat;
+  }
+
+  .imgbox6 {
+    background: linear-gradient(rgba(30, 30, 30, 0.25), rgba(30, 30, 30, 0.25)), url(img/qatarplayers.jpeg) center/cover no-repeat;
+  }
+
+  .imgbox4 {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 80px 20px;
+    height: 500px;
+    transition: all ease-in-out 0.3s;
+    background: linear-gradient(rgba(30, 30, 30, 0.25), rgba(30, 30, 30, 0.25)), url(img/defend.jpeg) center/cover no-repeat;
+
+    }
+
+    
+  .imgbox5 {
+    background: linear-gradient(rgba(30, 30, 30, 0.25), rgba(30, 30, 30, 0.25)), url(img/saad2.webp) center/cover no-repeat;
+  }
+
+  .icon-box:before {
+
+  }
+  .contentbox {
+    padding-top: 100px;
+  }
+.icon-box:hover, .icon-box2:hover {
+    border: 2px solid #8A1538;
+  }
+
+.icon-box a, .icon-box2 a {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+  color: black;
+}
+p {
+  font-family: "Normal";
+}
+
+
+
+/*portfolio */
+
+
+.icon-box h4 a, .icon-box2 h4 a{
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+  }
+
+  .icon-box p {
+    color: white;
+  }
+  .navbar-toggler-icon {
+    border-color: white;
+    color:white;
+  }
+  .navbar-light {
+    color:white
+  }
+
+
+  .cta {
+    background: linear-gradient(180deg, rgba(29, 29, 31, 0.172) 0%, rgba(29, 29, 31, 0.172) 100%), url(./img/qatarmap.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+  }
+  
+  .cta p {
+    color: #fff;
+  }
+.cta h2 {
+    font-weight:600; 
+
+
+}
+  h1, h2, h3 {
+    font-weight:600; 
+  }
+  
+  .cta .cta-btn {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+  .btn-primary {
+    background-color: transparent;
+    border-color: white;
+  }
+
+@media only screen and (max-width: 500px) {
+
+  .navbar,
+
+  .navbar-collapse,
+ {
+    background-color: black;
+  }
+
+
+  @media only screen and (max-width:700px) {
+    .imgbox2 {
+    }
+  }
+
+}
+
+
